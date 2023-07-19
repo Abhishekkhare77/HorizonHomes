@@ -11,6 +11,8 @@ import SearchModal from './components/modals/SearchModal'
 
 const font = Nunito({ subsets: ['latin'] })
 
+export const dynamic = 'force-dynamic'
+
 export const metadata: Metadata = {
   title: 'Airbnb-Clone',
   description: 'Holiday Homes & Apartment Rentals',

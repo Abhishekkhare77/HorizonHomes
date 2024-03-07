@@ -14,7 +14,7 @@ const font = Nunito({ subsets: ['latin'] })
 export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
-  title: 'Airbnb-Clone',
+  title: 'HorizonHomes',
   description: 'Holiday Homes & Apartment Rentals',
 }
 

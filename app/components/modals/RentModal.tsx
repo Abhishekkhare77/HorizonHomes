@@ -190,7 +190,7 @@ const RentModal = () => {
     }
 
   return (
-    <Modal title="Airbnb your home!" isOpen={rentModal.isOpen} onClose={rentModal.onClose} onSubmit={handleSubmit(onSubmit)} actionLabel={actionLabel} secondaryActionLabel={secondaryActionLabel} secondaryAction={step===STEPS.CATEGORY ? undefined : onBack } body={bodyContent} />
+    <Modal title="HorizonHomes your home!" isOpen={rentModal.isOpen} onClose={rentModal.onClose} onSubmit={handleSubmit(onSubmit)} actionLabel={actionLabel} secondaryActionLabel={secondaryActionLabel} secondaryAction={step===STEPS.CATEGORY ? undefined : onBack } body={bodyContent} />
   )
 }
 

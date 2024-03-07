@@ -42,7 +42,7 @@ const UserMenu:React.FC<UserMenuProps> = ({
     <div className="relative">
         <div className="flex flex-row items-center gap-3">
             <div onClick={onRent} className="hidden md:block text-sm font-semibold py-3 px-4 rounded-full hover:bg-neutral-100 tansition cursor-pointer">
-                Airbnb your home
+                HorizonHomes your home
             </div>
             <div onClick={toggleOpen} className="p-4 md:px-1 md:py-2 border-[1px] border-neutral-200 flex flex-row items-center gap-3 rounded-full cursor-pointer hover:shadow-md transition ">
                 <AiOutlineMenu/>
@@ -60,7 +60,7 @@ const UserMenu:React.FC<UserMenuProps> = ({
                  <MenuItem onClick={()=>router.push('/favorites')} label={"My favorites"}/>
                  <MenuItem onClick={()=>router.push('/reservations')} label={"My reservations"}/>
                  <MenuItem onClick={()=>router.push('/properties')} label={"My properties"}/>
-                 <MenuItem onClick={rentModal.onOpen} label={"Airbnb my home"}/>
+                 <MenuItem onClick={rentModal.onOpen} label={"HorizonHomes my home"}/>
                  <hr />
                  <MenuItem onClick={()=>signOut()} label={"Logout"}/>
 

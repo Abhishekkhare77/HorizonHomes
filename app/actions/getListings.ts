@@ -11,7 +11,9 @@ export interface IListingParams{
     category?:string;
 }
 
-export default async function getListings(params:IListingParams){
+export default async function 
+
+etListings(params:IListingParams){
     try {
         const {userId,guestCount,roomCount,bathroomCount,startDate,endDate,locationValue,category}  =params;
         
